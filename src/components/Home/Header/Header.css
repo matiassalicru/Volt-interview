@@ -24,3 +24,28 @@
 .header-image{
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+  .header-container { 
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.header-right{
+    font-size: 1.2rem;
+    width: 100%;
+    color: #00000090;
+    text-align: center;
+}
+
+.header-left{
+    width: 50%;
+}
+
+.header-image{
+    width: 60%;
+}
+
+}

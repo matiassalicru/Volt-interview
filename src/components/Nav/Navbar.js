@@ -18,7 +18,7 @@ export const Navbar = () => {
       <ul className="nav-list">
           <li onClick={handleClick} className="nav-item">Modelos</li>
 
-          <li onClick={handleClick} className="nav-item">Más sobre nosotros</li>
+          <li onClick={handleClick} className="nav-item">Nosotros</li>
       </ul>
     </nav>
   );

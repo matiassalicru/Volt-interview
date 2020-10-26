@@ -32,3 +32,36 @@
 .nav-item:hover{
     border-bottom:2px solid #bebebe;
 }
+
+@media only screen and (max-width: 600px) {
+ .nav-container{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    margin: auto;
+    height: rem;
+    margin: auto;
+    background-color: #e10019;
+    border-bottom: 1px solid #c2c2c2;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-item{
+    font-size: 1rem;
+    margin: 0 20px;
+    cursor: pointer;
+    border-bottom:1px solid #c2c2c200;
+
+    transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+}
