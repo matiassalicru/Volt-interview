@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar } from '../Nav/Navbar';
+import { Footer } from './Footer/Footer';
 import { Header } from "./Header/Header";
 import './Home.css';
 import { Main } from './Main/Main';
@@ -16,6 +17,8 @@ export const Home = () => {
             </div>
 
             <Main/>
+
+            <Footer/>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Car } from "../Cars/Car";
-import './Main.css'
+import "./Main.css";
 
 export const Main = () => {
   const [cars, setCars] = useState({
@@ -27,6 +27,8 @@ export const Main = () => {
         <p> Cargando... </p>
       ) : (
         vehicles.map((car) => (
+            
+
             <Car
               key={car.model}
               model={car.model}
