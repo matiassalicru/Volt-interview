@@ -18,13 +18,25 @@ export const Footer = () => {
       </p>
 
       <ul className="footer-social">
-        <a href="https://www.facebook.com/volt.motors/">
+        <a
+          href="https://www.facebook.com/volt.motors/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon icon={socialFacebook} width="45" height="45" />
         </a>
-        <a href="https://www.instagram.com/volt.motors/">
+        <a
+          href="https://www.instagram.com/volt.motors/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon icon={socialInstagram} width="45" height="45" />
         </a>
-        <a href="https://www.linkedin.com/company/volt-motors">
+        <a
+          href="https://www.linkedin.com/company/volt-motors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon icon={socialLinkedin} width="45" height="45" />
         </a>
       </ul>
