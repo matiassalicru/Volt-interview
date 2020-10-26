@@ -1,12 +1,10 @@
 import React from "react";
 import "./Footer.css";
 // npm install --save-dev @iconify/react @iconify/icons-simple-line-icons
-import { Icon } from '@iconify/react';
-import socialInstagram from '@iconify/icons-simple-line-icons/social-instagram';
+import { Icon } from "@iconify/react";
+import socialInstagram from "@iconify/icons-simple-line-icons/social-instagram";
 import socialFacebook from "@iconify/icons-simple-line-icons/social-facebook";
 import socialLinkedin from "@iconify/icons-simple-line-icons/social-linkedin";
-
-
 
 export const Footer = () => {
   return (
@@ -20,11 +18,16 @@ export const Footer = () => {
       </p>
 
       <ul className="footer-social">
-        <Icon icon={socialInstagram} width="45" height="45" />{" "}
-        <Icon icon={socialFacebook} width="45" height="45" />{" "}
-        <Icon icon={socialLinkedin} width="45" height="45" />{" "}
+        <a href="https://www.facebook.com/volt.motors/">
+          <Icon icon={socialFacebook} width="45" height="45" />
+        </a>
+        <a href="https://www.instagram.com/volt.motors/">
+          <Icon icon={socialInstagram} width="45" height="45" />
+        </a>
+        <a href="https://www.linkedin.com/company/volt-motors">
+          <Icon icon={socialLinkedin} width="45" height="45" />
+        </a>
       </ul>
-
     </footer>
   );
 };
