@@ -1,0 +1,12 @@
+.home-divider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    background-color: #dfdfdf;
+    color: rgb(53, 53, 53);
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-style: italic;
+}

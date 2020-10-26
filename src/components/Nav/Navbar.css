@@ -2,8 +2,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 2rem;
     height: 3rem;
-    background-color: #e2e2e2;
+    background-color: #e10019;
+    border-bottom: 1px solid #c2c2c2;
     width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-logo{
+    width: 45px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+
+.nav-item{
+    font-size: 1.125rem;
+    margin: 0 20px;
 }
