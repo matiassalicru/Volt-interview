@@ -8,6 +8,7 @@ export const Main = () => {
     loading: true,
   });
 
+  // Hook UseEffect para traer la información de la API.
   useEffect(() => {
     fetch("https://f2f5ef2c-ff88-4f90-a867-c583ecf38bd4.mock.pstmn.io/cars")
       .then((resp) => resp.json())
